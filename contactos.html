@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desarrollo Web</title>
+        <link rel="preload" href="css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preload" href="css/styles.css">
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">Galante Leandro 
+                <span>Web Developer</span>
+            </h1>
+        </header>
+
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="inicio.html">Inicio</a> 
+                <a href="nosotros.html">Nosotros</a> 
+                <a href="clientes.html">Clientes</a> 
+                <a href="contactos.html">Contactos</a>
+            </nav>
+        </div>
+
+        <section class="hero">
+            <div class="contenido-hero">
+                <h2>Diseño y Desarrollo Web</h2>
+                <p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="80" height="80" viewBox="0 0 24 24" stroke-width="1" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                Buenos Aires, Argentina</p>            
+                <a class="boton" href="#contacto">Contactar</a>         
+            </div>
+        </section>
+
+        <main class="contenedor sombra">       
+            <section>
+                <h2>Contacto</h2>
+
+                <form class="formulario" id="contacto">
+                    <fieldset>
+                        <legend>Contactanos llenando todos los campos</legend>
+                        <div class="contenedor-campos">
+                            <div class="campo">
+                                <label>Nombre</label>
+                                <input type="text" placeholder="Ingrese su Nombre"> 
+                            </div>
+
+                            <div class="campo">
+                                <label>Telefono</label>
+                                <input type="text" placeholder="Ingrese su Telefono">
+                            </div>
+
+                            <div class="campo">
+                                <label>Correo</label>
+                                <input type="text"  placeholder="Ingrese su Correo">
+                            </div>
+
+                            <div class="campo">
+                                <label>Mensaje</label>
+                                <textarea placeholder="Deje su mensaje"></textarea>
+                            </div>
+
+                        <div class="enviar">
+                            <button class="boton" type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <p>Todos los derechos reservados. Galante Leandro Web Developer</p>
+        </footer>
+        
+
+    </body>
+</html>
